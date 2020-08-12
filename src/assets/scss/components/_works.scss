@@ -1,0 +1,40 @@
+.pre-title--works {
+    font-size: .875rem;
+    line-height: 1.6875em;
+    letter-spacing: -.005625em;
+    font-weight: 400;
+    color: #5f4203;
+    background: #ffeabc;
+    margin-bottom: 0.6em;
+    display: inline-block;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-radius: 20px;
+}
+
+.title--works {
+    position: relative;
+    font-size: 1.8em;
+    line-height: 1.25em;
+    letter-spacing: -.01125em;
+    font-weight: 400;
+    color: #000;
+}
+
+.items--works:nth-child(odd) {
+    margin-top: 170px;
+}
+
+.img--works {
+    box-shadow: 0 36px 64px 0 rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 767px) {
+    .items--works:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    .items--works {
+        margin-bottom: 40px;
+    }
+}
