@@ -15,6 +15,16 @@ library.add(faDesktop,faPaintBrush,faPaperPlane,faChevronRight,faMugHot,faInstag
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
+import VueCosha from "vue-cosha";
+
+Vue.use(VueCosha, {
+  blur: "15px",
+  brightness: 1,
+  saturation: 1,
+  x: 0,
+  y: 0,
+});
+
 Vue.use(VLazyImagePlugin);
 
 Vue.config.productionTip = false

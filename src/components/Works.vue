@@ -13,7 +13,8 @@
                 </div>
                 <div class="box-decoration" style="transform: matrix(1, 0, 0, 1, -150, 0);"></div>
                 <div class="col-lg-5 items--works">
-                    <v-lazy-image alt="Cliente Ringsouth" src="images/screen-ringsouth_movil.png" class="image lazyload img-fluid mb-5 img--works"/>
+                    <v-lazy-image alt="Cliente Ringsouth" src="images/screen-ringsouth_movil.png" class="image img-fluid mb-5 img--works" v-cosha />
+                    <img alt="Cliente Ringsouth" src="images/screen-ringsouth_movil.png" class="image img-fluid mb-5"  v-cosha />
                     <h3 class="pre-title--works">#Website</h3> <h3 class="pre-title--works">#Dashboard</h3>
                     <h2 class="title--works">Ringsouth Móvil.</h2>
                     <p>Case Study próximamente...</p>
@@ -42,3 +43,9 @@
 </section>
 
 </template>
+
+<style>
+.image.cosha-clone{
+    max-width:110%
+}
+</style>
