@@ -15,6 +15,10 @@ library.add(faDesktop,faPaintBrush,faPaperPlane,faChevronRight,faMugHot,faInstag
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
+import VueLazyload from 'vue-lazyload'
+
+Vue.use(VueLazyload)
+
 import VueCosha from "vue-cosha";
 
 Vue.use(VueCosha, {
