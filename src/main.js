@@ -20,9 +20,6 @@ import { VLazyImagePlugin } from "v-lazy-image";
 import VueLazyload from 'vue-lazyload';
 import VueCosha from "vue-cosha";
 
-import Lottie from "vue-lottie";
-Vue.component("lottie", Lottie);
-
 Vue.use(VueLazyload)
 Vue.use(VLazyImagePlugin)
 Vue.use(VueCosha, {
