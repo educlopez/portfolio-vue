@@ -2,7 +2,8 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import './registerServiceWorker';
-import { VLazyImagePlugin } from "v-lazy-image";
+
+
 import "@/assets/scss/app.scss";
 import "@/assets/scss/argon.css";
 
@@ -15,12 +16,15 @@ library.add(faDesktop,faPaintBrush,faPaperPlane,faChevronRight,faMugHot,faInstag
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
-import VueLazyload from 'vue-lazyload'
-
-Vue.use(VueLazyload)
-
+import { VLazyImagePlugin } from "v-lazy-image";
+import VueLazyload from 'vue-lazyload';
 import VueCosha from "vue-cosha";
 
+import Lottie from "vue-lottie";
+Vue.component("lottie", Lottie);
+
+Vue.use(VueLazyload)
+Vue.use(VLazyImagePlugin)
 Vue.use(VueCosha, {
   blur: "15px",
   brightness: 1,
@@ -29,11 +33,8 @@ Vue.use(VueCosha, {
   y: 0,
 });
 
-Vue.use(VLazyImagePlugin);
 
 Vue.config.productionTip = false
-
-
 
 new Vue({
   router,

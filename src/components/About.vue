@@ -1,6 +1,6 @@
 <template>
     <!--<section class="section section-lg  pb-250 panel" data-color="blue">-->
-    <section class="section section-lg  pb-250 panel">
+    <section class="section section-lg panel">
     <div class="container py-lg-md d-flex">
         <div class="col px-0">
             <div class="row">

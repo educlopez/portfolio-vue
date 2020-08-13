@@ -1,5 +1,5 @@
 <template>
-<div>
+<div style="margin-top: 80px;">
     <Services/>
     <section id="services" class="section section-sm panel">
         <div class="container py-lg-md d-flex">

@@ -1,18 +1,16 @@
 <template>
     <div class="position-relative panel" data-color="white">
-        <section class="section section-lg section-shaped pb-250 pt-100">
+        <section class="section section-lg section-shaped pt-100">
             <div class="container d-flex card-style">
                 <div class="col px-0">
                     <div class="row">
-                        <div class="col-lg-12 mb-2">
-                             <router-link class="announcement" to="/recomendaciones">
+                        <div class="col-lg-5">
+                           <router-link class="announcement mb-4" to="/recomendaciones">
                                 <span class="badge badge-pill new-pill">Nuevo</span>
                                 <span class="message">
-                                    Sección de recomendaciones de equipo y libros <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                                    Recomendaciones de equipo y libros <font-awesome-icon :icon="['fas', 'chevron-right']"/>
                                 </span>
                             </router-link>
-                        </div>
-                        <div class="col-lg-6">
                             <h1 class="title-h1-header text-black">
                                 <span class="border-title">
                                     Soy Edu
@@ -29,8 +27,9 @@
                                 </router-link>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                             <v-lazy-image src="images/rock-img.png" alt="img by https://icons8.com" data-toggle="tooltip" title="Ilustración por https://icons8.com" class="image lazyload rock-img"/>
+                        <div class="col-lg-7 p-0">
+                            <!--<v-lazy-image src="images/rock-img.png" alt="img by https://icons8.com" data-toggle="tooltip" title="Ilustración por https://icons8.com" class="image lazyload rock-img"/>-->
+                           <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_gyk2fh.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
                         </div>
                     </div>
                 </div>
@@ -40,5 +39,17 @@
 </template>
 
 <script>
-    
+
 </script>
+
+<style>
+lottie-player{
+    width:600px;
+}
+
+@media (max-width: 670px) {
+    lottie-player{
+    width:100%;
+}
+}
+</style>
