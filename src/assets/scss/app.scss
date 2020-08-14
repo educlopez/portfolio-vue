@@ -179,6 +179,10 @@ body {
     background-color: #eff1f4;
 }
 
+.show-mobile{
+    display:none;
+}
+
 @media (max-width: 767px) {
     .card-style {
         padding: 40px !important;
@@ -190,5 +194,8 @@ body {
 
     .title-h1-header {
         font-size: 3.25em;
+    }
+    .show-mobile{
+        display:block;
     }
 }

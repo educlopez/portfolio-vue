@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-lg-7 p-0">
                             <!--<v-lazy-image src="images/rock-img.png" alt="img by https://icons8.com" data-toggle="tooltip" title="Ilustración por https://icons8.com" class="image lazyload rock-img"/>-->
-                           <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_gyk2fh.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
+                           <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_BWAZgX.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
                         </div>
                     </div>
                 </div>

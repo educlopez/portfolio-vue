@@ -5,9 +5,12 @@
             <router-link to="/" class="navbar-brand mr-lg-5">
                 <img src="/images/logonegro.svg" alt="Logo Edu Calvo Design" style="height: 50px">
             </router-link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>-->
+            <a href="mailto:hi@educalvolopez.com" target="_blank" class="show-mobile btn btn-yellow">
+                <span class="nav-link-inner--text">Contacto</span>
+            </a>
             <div class="navbar-collapse collapse" id="navbar_global">
                 <div class="navbar-collapse-header">
                     <div class="row">
@@ -107,7 +110,7 @@
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a href="mailto:hi@educalvolopez.com" target="_blank" class="btn btn-yellow">
-                    <span class="nav-link-inner--text">Contacto</span>
+                        <span class="nav-link-inner--text">Contacto</span>
                     </a>
                 </li>
                 </ul>
