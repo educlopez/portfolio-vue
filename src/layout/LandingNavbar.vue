@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <!--<a href="#" class="nav-link" data-toggle="dropdown" role="button">-->
                         <router-link to="/#works" class="nav-link" role="button">
                             <span class="nav-link-inner--text text-black">Proyectos</span>
@@ -80,6 +80,11 @@
                     <li class="nav-item ">
                         <router-link to="/recomendaciones" class="nav-link" role="button">
                             <span class="nav-link-inner--text text-black">Recomendaciones</span>
+                    </router-link>
+                    </li>
+                    <li class="nav-item ">
+                        <router-link to="" class="nav-link" role="button">
+                            <span class="nav-link-inner--text text-black">Blog <span class="pre-title--works">Próximamente</span></span>
                     </router-link>
                     </li>
                 </ul>
