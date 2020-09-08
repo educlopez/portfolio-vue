@@ -14,7 +14,6 @@
                 <div class="box-decoration" style="transform: matrix(1, 0, 0, 1, -150, 0);"></div>
                 <div class="col-lg-5 items--works">
                     <div v-lazy-container="{ selector: 'img' }">
-                        <img data-src="images/screen-ringsouth_movil.webp" src="images/screen-ringsouth_movil.webp" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
                         <img data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
                     </div>
                     <h3 class="pre-title--works">#Website</h3> <h3 class="pre-title--works">#Dashboard</h3>
