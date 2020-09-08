@@ -199,3 +199,13 @@ body {
         display:block!important;
     }
 }
+
+lottie-player {
+  width: 600px;
+}
+
+@media (max-width: 670px) {
+  lottie-player {
+    width: 100%;
+  }
+}

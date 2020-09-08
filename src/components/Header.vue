@@ -59,14 +59,4 @@ export default {
 };
 </script>
 
-<style>
-lottie-player {
-  width: 600px;
-}
-
-@media (max-width: 670px) {
-  lottie-player {
-    width: 100%;
-  }
-}
-</style>
+<style></style>
