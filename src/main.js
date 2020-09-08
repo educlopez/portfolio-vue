@@ -45,12 +45,16 @@ library.add(
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 //Images
-import { VLazyImagePlugin } from 'v-lazy-image';
-import VueLazyload from 'vue-lazyload';
+import 'lazysizes';
+
 import VueCosha from 'vue-cosha';
 
+
+import { VLazyImagePlugin } from 'v-lazy-image';
+import VueLazyload from 'vue-lazyload';
 Vue.use(VueLazyload);
 Vue.use(VLazyImagePlugin);
+
 Vue.use(VueCosha, {
   blur: '15px',
   brightness: 1,

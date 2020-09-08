@@ -13,9 +13,14 @@
                 </div>
                 <div class="box-decoration" style="transform: matrix(1, 0, 0, 1, -150, 0);"></div>
                 <div class="col-lg-5 items--works">
-                    <div v-lazy-container="{ selector: 'img' }">
+                 <picture>
+                        <source type="image/webp" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.webp">
+                        <source type="image/png" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.png">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png"  class="image img-fluid mb-5">
+                   </picture>
+                     <!--<div v-lazy-container="{ selector: 'img' }">
                         <img data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
-                    </div>
+                    </div>-->
                     <h3 class="pre-title--works">#Website</h3> <h3 class="pre-title--works">#Dashboard</h3>
                     <h2 class="title--works">Ringsouth Móvil.</h2>
                     <p>Case Study próximamente...</p>
