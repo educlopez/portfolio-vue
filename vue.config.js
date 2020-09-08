@@ -12,28 +12,29 @@
  * Javascript will save your soul!
  */
 
-
 const webpack = require('webpack');
-const isProd = process.env.NODE_ENV === "production";
+const isProd = process.env.NODE_ENV === 'production';
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 
 module.exports = {
   configureWebpack: {
     // Set up all the aliases we use in our app.
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
-        maxChunks: 6
-      })
-    ]
+        maxChunks: 6,
+      }),
+      new ImageminWebpWebpackPlugin(),
+    ],
   },
   pwa: {
     name: 'Edu Calvo Design',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
-    appleMobileWebAppStatusBarStyle: '#172b4d'
+    appleMobileWebAppStatusBarStyle: '#172b4d',
   },
   css: {
     // Enable CSS source maps.
-    sourceMap: process.env.NODE_ENV !== 'production'
-  }
+    sourceMap: process.env.NODE_ENV !== 'production',
+  },
 };
