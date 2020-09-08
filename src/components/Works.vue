@@ -13,11 +13,10 @@
                 </div>
                 <div class="box-decoration" style="transform: matrix(1, 0, 0, 1, -150, 0);"></div>
                 <div class="col-lg-5 items--works">
-                 <picture>
-                        <source type="image/webp" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.webp">
-                        <source type="image/png" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.png">
-                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_movil.png"  class="image lazyload img-fluid mb-5">
-                   </picture>
+                    <picture>
+                        <source type="image/webp" data-srcset="compressed_images/screen-ringsouth_movil.webp">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_movil.png"  class="image lazyload img-fluid mb-5" v-cosha>
+                    </picture>
                      <!--<div v-lazy-container="{ selector: 'img' }">
                         <img data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
                     </div>-->
@@ -26,25 +25,29 @@
                     <p>Case Study próximamente...</p>
                 </div>
                 <div class="col-lg-5 offset-lg-2 items--works">
-                    <div v-lazy-container="{ selector: 'img' }">
-                        <img data-src="images/screen-ringsouth_sms.png" src="images/screen-ringsouth_sms.png" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
-                    </div>
+                    <picture>
+                        <source type="image/webp"  data-srcset="compressed_images/screen-ringsouth_sms.webp">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_sms.png"  class="image lazyload img-fluid mb-5" v-cosha>
+                    </picture>
                     <h3 class="pre-title--works">#Website</h3> <h3 class="pre-title--works">#Dashboard</h3>
                     <h2 class="title--works">SMSRingsouth.</h2>
                     <p>Case Study próximamente...</p>
                 </div>
                 <div class="col-lg-5 items--works">
-                    <div v-lazy-container="{ selector: 'img' }">
-                        <img data-src="images/screen-tantra_website.png" src="images/screen-tantra_website.png" alt="Cliente Tantra" class="image img-fluid mb-5" v-cosha>
-                    </div>
+                 <picture>
+                        <source type="image/webp"  data-srcset="compressed_images/screen-tantra_website.webp">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-tantra_website.png"  class="image lazyload img-fluid mb-5" v-cosha>
+                    </picture>
+                    
                     <h3 class="pre-title--works">#Website</h3>
                     <h2 class="title--works">Tantra Spain.</h2>
                     <p>Case Study próximamente...</p>
                 </div>
                 <div class="col-lg-5 offset-lg-2 items--works">
-                    <div v-lazy-container="{ selector: 'img' }">
-                        <img data-src="images/screen-uam_dashboard.png" src="images/screen-uam_dashboard.png" alt="Cliente UAM" class="image img-fluid mb-5" v-cosha>
-                    </div>
+                    <picture>
+                        <source type="image/webp"  data-srcset="compressed_images/screen-uam_dashboard.webp">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-uam_dashboard.png"  class="image lazyload img-fluid mb-5" v-cosha>
+                    </picture>
                     <h3 class="pre-title--works">#Dashboard</h3>
                     <h2 class="title--works">UAM.</h2>
                     <p>Case Study próximamente...</p>
