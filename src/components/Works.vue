@@ -16,7 +16,7 @@
                  <picture>
                         <source type="image/webp" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.webp">
                         <source type="image/png" alt="Cliente Ringsouth" data-srcset="images/screen-ringsouth_movil.png">
-                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png"  class="image img-fluid mb-5">
+                        <img alt="Cliente Ringsouth" data-src="images/screen-ringsouth_movil.png"  class="image lazyload img-fluid mb-5">
                    </picture>
                      <!--<div v-lazy-container="{ selector: 'img' }">
                         <img data-src="images/screen-ringsouth_movil.png" src="images/screen-ringsouth_movil.png" alt="Cliente Ringsouth" class="image img-fluid mb-5" v-cosha>
