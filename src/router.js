@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import LandingLayout from '@/layout/LandingLayout'
+import Vue from 'vue';
+import Router from 'vue-router';
+import LandingLayout from '@/layout/LandingLayout';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   //linkExactActiveClass: 'active',
@@ -15,30 +15,29 @@ export default new Router({
         {
           path: '/',
           name: 'landing',
-          component: () => import(/* webpackChunkName: "demo" */ './views/Landing.vue')
+          component: () => import('./views/Landing.vue'),
         },
         {
           path: '/services',
           name: 'services',
-          component: () => import(/* webpackChunkName: "demo" */ './views/ServicesLanding.vue')
+          component: () => import('./views/ServicesLanding.vue'),
         },
         {
           path: '/recomendaciones',
           name: 'recomendaciones',
-          component: () => import(/* webpackChunkName: "demo" */ './views/Recomendations.vue')
+          component: () => import('./views/Recomendations.vue'),
         },
-      ]
+      ],
     },
   ],
   mode: 'history',
   scrollBehavior(to, from, savedPosition) {
-  if (savedPosition) {
+    if (savedPosition) {
       return savedPosition;
-  }
+    }
     if (to.hash) {
       return { selector: to.hash };
-  }
-    return { x: 0, y: 0 }
-  }
-})
-
+    }
+    return { x: 0, y: 0 };
+  },
+});
