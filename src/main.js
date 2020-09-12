@@ -46,22 +46,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 //Images
 import 'lazysizes';
-
-import VueCosha from 'vue-cosha';
-
-
-import { VLazyImagePlugin } from 'v-lazy-image';
-import VueLazyload from 'vue-lazyload';
-Vue.use(VueLazyload);
-Vue.use(VLazyImagePlugin);
-
-Vue.use(VueCosha, {
-  blur: '15px',
-  brightness: 1,
-  saturation: 1,
-  x: 0,
-  y: 0,
-});
+import 'lazysizes/plugins/blur-up/ls.blur-up';
 
 //SEO
 import vueHeadful from 'vue-headful';

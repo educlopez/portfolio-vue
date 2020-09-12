@@ -15,6 +15,9 @@
 const webpack = require('webpack');
 const isProd = process.env.NODE_ENV === 'production';
 const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
+const RobotstxtPlugin = require('robotstxt-webpack-plugin');
+
+const options = {};
 
 module.exports = {
   configureWebpack: {
@@ -37,6 +40,7 @@ module.exports = {
         silent: false,
         strict: true,
       }),
+      new RobotstxtPlugin(options),
     ],
   },
   pwa: {
