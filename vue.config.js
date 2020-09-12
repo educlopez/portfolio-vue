@@ -16,11 +16,29 @@ const webpack = require('webpack');
 const isProd = process.env.NODE_ENV === 'production';
 const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 const RobotstxtPlugin = require('robotstxt-webpack-plugin');
-
 const options = {};
 
 module.exports = {
   configureWebpack: {
+    optimization: {
+      runtimeChunk: 'single',
+      splitChunks: {
+        chunks: 'all',
+        maxInitialRequests: Infinity,
+        minSize: 0,
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name(module) {
+              const packageName = module.context.match(
+                /[\\/]node_modules[\\/](.*?)([\\/]|$)/
+              )[1];
+              return `npm.${packageName.replace('@', '')}`;
+            },
+          },
+        },
+      },
+    },
     // Set up all the aliases we use in our app.
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
