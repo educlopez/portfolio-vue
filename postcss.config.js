@@ -1,19 +1,26 @@
-const purgecss = require("@fullhuman/postcss-purgecss");
+const purgecss = require('@fullhuman/postcss-purgecss');
 
-const plugins = [...];
-
-if (process.env.NODE_ENV === "production") {
-  plugins.push(
+module.exports = {
+  plugins: [
     purgecss({
-      content: [
-        "./layouts/**/*.vue",
-        "./components/**/*.vue",
-        "./pages/**/*.vue"
+      content: [`./public/**/*.html`, `./src/**/*.vue`],
+      defaultExtractor(content) {
+        const contentWithoutStyleBlocks = content.replace(
+          /<style[^]+?<\/style>/gi,
+          ''
+        );
+        return (
+          contentWithoutStyleBlocks.match(/[A-Za-z0-9-_/:]*[A-Za-z0-9-_/]+/g) ||
+          []
+        );
+      },
+      whitelist: [],
+      whitelistPatterns: [
+        /-(leave|enter|appear)(|-(to|from|active))$/,
+        /^(?!(|.*?:)cursor-move).+-move$/,
+        /^router-link(|-exact)-active$/,
+        /data-v-.*/,
       ],
-      whitelist: ["html", "body"],
-      whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
-    })
-  );
-}
-
-module.exports = { plugins };
+    }),
+  ],
+};
