@@ -10,11 +10,11 @@
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-ringsouth.webp"
+                      data-srcset="/compressed_images/logo-client-ringsouth.webp"
                     />
                     <img
                       alt="Cliente Ringsouth"
-                      data-src="mages/logo-client-ringsouth.png"
+                      data-src="/images/logo-client-ringsouth.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -23,21 +23,21 @@
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-net2phone.webp"
+                      data-srcset="/compressed_images/logo-client-net2phone.webp"
                     />
                     <img
                       alt="Cliente net2phone"
-                      data-src="mages/logo-client-net2phone.png"
+                      data-src="/images/logo-client-net2phone.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
                 </div>
                 <div class="col-lg col-6">
                   <picture>
-                    <source type="image/webp" data-srcset="compressed_images/logo-client-uam.webp" />
+                    <source type="image/webp" data-srcset="/compressed_images/logo-client-uam.webp" />
                     <img
                       alt="Cliente uam"
-                      data-src="mages/logo-client-uam.png"
+                      data-src="/images/logo-client-uam.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -46,11 +46,11 @@
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-banco-sabadell.webp"
+                      data-srcset="/compressed_images/logo-client-banco-sabadell.webp"
                     />
                     <img
                       alt="Cliente banco Sabadell"
-                      data-src="images/logo-client-banco-sabadell.png"
+                      data-src="/images/logo-client-banco-sabadell.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -59,11 +59,11 @@
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-tantra.webp"
+                      data-srcset="/compressed_images/logo-client-tantra.webp"
                     />
                     <img
                       alt="Cliente tantra"
-                      data-src="mages/logo-client-tantra.png"
+                      data-src="/images/logo-client-tantra.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>

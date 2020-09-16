@@ -45,11 +45,11 @@
                     <picture>
                       <source
                         type="image/webp"
-                        data-srcset="compressed_images/screen-tantra_website.webp"
+                        data-srcset="/compressed_images/screen-tantra_website.webp"
                       />
                       <img
                         alt="Cliente tantra website"
-                        data-src="images/screen-tantra_website.png"
+                        data-src="/images/screen-tantra_website.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -58,11 +58,11 @@
                     <picture>
                       <source
                         type="image/webp"
-                        data-srcset="compressed_images/screen-uam_dashboard.webp"
+                        data-srcset="/compressed_images/screen-uam_dashboard.webp"
                       />
                       <img
                         alt="Cliente uam dashboard website"
-                        data-src="images/screen-uam_dashboard.png"
+                        data-src="/images/screen-uam_dashboard.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -71,11 +71,11 @@
                     <picture>
                       <source
                         type="image/webp"
-                        data-srcset="compressed_images/screen-ringsouth_sms.webp"
+                        data-srcset="/compressed_images/screen-ringsouth_sms.webp"
                       />
                       <img
                         alt="Cliente ringsouth sms website net2phone"
-                        data-src="images/screen-ringsouth_sms.png"
+                        data-src="/images/screen-ringsouth_sms.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -84,11 +84,11 @@
                     <picture>
                       <source
                         type="image/webp"
-                        data-srcset="compressed_images/screen-ringsouth_movil.webp"
+                        data-srcset="/compressed_images/screen-ringsouth_movil.webp"
                       />
                       <img
                         alt="Cliente ringsouth movil net2phone website"
-                        data-src="images/screen-ringsouth_movil.png"
+                        data-src="/images/screen-ringsouth_movil.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -119,30 +119,30 @@
                 <div class="row">
                   <div class="col-lg-3">
                     <picture>
-                      <source type="image/webp" data-srcset="compressed_images/logo_ladyboho.webp" />
+                      <source type="image/webp" data-srcset="/compressed_images/logo_ladyboho.webp" />
                       <img
                         alt="Cliente tantra spain ladyboho website"
-                        data-src="images/logo_ladyboho.png"
+                        data-src="/images/logo_ladyboho.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
                   </div>
                   <div class="col-lg-3">
                     <picture>
-                      <source type="image/webp" data-srcset="compressed_images/icon_wolf_app.webp" />
+                      <source type="image/webp" data-srcset="/compressed_images/icon_wolf_app.webp" />
                       <img
                         alt="Cliente icono lobo"
-                        data-src="images/icon_wolf_app.png"
+                        data-src="/images/icon_wolf_app.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
                   </div>
                   <div class="col-lg-3">
                     <picture>
-                      <source type="image/webp" data-srcset="compressed_images/logo_linkup.webp" />
+                      <source type="image/webp" data-srcset="/compressed_images/logo_linkup.webp" />
                       <img
                         alt="Cliente linkup logo"
-                        data-src="images/logo_linkup.png"
+                        data-src="/images/logo_linkup.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>

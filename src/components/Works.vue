@@ -5,25 +5,20 @@
         <div class="row">
           <div class="col-lg-12 mb-5">
             <h2 class="title-h1-header text-black">
-              <span class="border-title">
-                Últimos
-              </span>
+              <span class="border-title">Últimos</span>
               proyectos
             </h2>
           </div>
-          <div
-            class="box-decoration"
-            style="transform: matrix(1, 0, 0, 1, -150, 0);"
-          ></div>
+          <div class="box-decoration" style="transform: matrix(1, 0, 0, 1, -150, 0);"></div>
           <div class="col-lg-5 items--works">
             <picture>
               <source
                 type="image/webp"
-                data-srcset="compressed_images/screen-ringsouth_movil.webp"
+                data-srcset="/compressed_images/screen-ringsouth_movil.webp"
               />
               <img
                 alt="Cliente Ringsouth"
-                data-src="images/screen-ringsouth_movil.png"
+                data-src="/images/screen-ringsouth_movil.png"
                 class="image lazyload mediabox-img img-fluid mb-5"
               />
             </picture>
@@ -34,13 +29,10 @@
           </div>
           <div class="col-lg-5 offset-lg-2 items--works">
             <picture>
-              <source
-                type="image/webp"
-                data-srcset="compressed_images/screen-ringsouth_sms.webp"
-              />
+              <source type="image/webp" data-srcset="/compressed_images/screen-ringsouth_sms.webp" />
               <img
                 alt="Cliente Ringsouth"
-                data-src="images/screen-ringsouth_sms.png"
+                data-src="/images/screen-ringsouth_sms.png"
                 class="image lazyload mediabox-img img-fluid mb-5"
               />
             </picture>
@@ -51,13 +43,10 @@
           </div>
           <div class="col-lg-5 items--works">
             <picture>
-              <source
-                type="image/webp"
-                data-srcset="compressed_images/screen-tantra_website.webp"
-              />
+              <source type="image/webp" data-srcset="/compressed_images/screen-tantra_website.webp" />
               <img
                 alt="Cliente tantra website"
-                data-src="images/screen-tantra_website.png"
+                data-src="/images/screen-tantra_website.png"
                 class="image lazyload mediabox-img img-fluid mb-5"
               />
             </picture>
@@ -68,13 +57,10 @@
           </div>
           <div class="col-lg-5 offset-lg-2 items--works">
             <picture>
-              <source
-                type="image/webp"
-                data-srcset="compressed_images/screen-uam_dashboard.webp"
-              />
+              <source type="image/webp" data-srcset="/compressed_images/screen-uam_dashboard.webp" />
               <img
                 alt="Cliente uam dashboard universidad autonoma de madrid"
-                data-src="images/screen-uam_dashboard.png"
+                data-src="/images/screen-uam_dashboard.png"
                 class="image lazyload mediabox-img img-fluid mb-5"
               />
             </picture>

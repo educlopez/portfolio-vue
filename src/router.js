@@ -9,6 +9,10 @@ const ServicesLanding = () =>
   import(/* webpackChunkName: "services" */ './views/ServicesLanding.vue');
 const Recomendations = () =>
   import(/* webpackChunkName: "recomendations" */ './views/Recomendations.vue');
+const CaseStudyRingsouthMovil = () =>
+  import(
+    /* webpackChunkName: "casestudy" */ './views/casestudy/Ringsouthmovil.vue'
+  );
 
 export default new Router({
   //linkExactActiveClass: 'active',
@@ -32,6 +36,11 @@ export default new Router({
           path: '/recomendaciones',
           name: 'recomendaciones',
           component: Recomendations,
+        },
+        {
+          path: '/case-study/ringsouth-movil',
+          name: 'casestudyringsouthmovil',
+          component: CaseStudyRingsouthMovil,
         },
       ],
     },

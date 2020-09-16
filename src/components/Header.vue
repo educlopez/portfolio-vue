@@ -32,10 +32,10 @@
             </div>
             <div class="col-lg-7 p-0">
               <picture>
-                <source type="image/webp" data-srcset="compressed_images/Welcome.webp" />
+                <source type="image/webp" data-srcset="/compressed_images/Welcome.webp" />
                 <img
                   alt="welcome Edu web"
-                  data-src="images/Welcome.png"
+                  data-src="/images/Welcome.png"
                   class="lazyload img-fluid img-welcome"
                 />
               </picture>
