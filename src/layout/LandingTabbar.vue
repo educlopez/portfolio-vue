@@ -31,7 +31,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .mobile-tabbar {
   position: fixed;
   bottom: 20px;

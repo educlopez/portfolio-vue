@@ -3,10 +3,6 @@ import App from './App.vue';
 import router from './router';
 import './registerServiceWorker';
 
-//Styles
-import '@/assets/scss/app.scss';
-import '@/assets/scss/argon.css';
-
 //Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {

@@ -23,25 +23,21 @@
           <div class="mb-5" id="ServWeb">
             <div class="row">
               <div class="col-auto">
-                <div
-                  class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow"
-                >
+                <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow">
                   <font-awesome-icon :icon="['fas', 'desktop']" />
                 </div>
               </div>
               <div class="col-lg-3">
-                <h5 class="card-title text-uppercase text-muted mb-0"
-                  >Desarrollo</h5
-                >
+                <h5 class="card-title text-uppercase text-muted mb-0">Desarrollo</h5>
                 <span class="h2 font-weight-bold mb-0">Web</span>
               </div>
               <div class="col">
-                <p
-                  >Con la tecnología más avanzada, ofrezo un conjunto sólido de
+                <p>
+                  Con la tecnología más avanzada, ofrezo un conjunto sólido de
                   servicios digitales, que incluyen diseño y desarrollo web,
                   mejora de UX / UI y soluciones comerciales que crean un
-                  impacto inmediato.</p
-                >
+                  impacto inmediato.
+                </p>
               </div>
               <div class="col-lg-11 offset-lg-1">
                 <div class="row">
@@ -54,7 +50,7 @@
                       <img
                         alt="Cliente tantra website"
                         data-src="images/screen-tantra_website.png"
-                        class="image lazyload mediabox-img  img-fluid mb-5 img--works "
+                        class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
                   </div>
@@ -104,33 +100,26 @@
           <div class="mb-5" id="ServDesign">
             <div class="row">
               <div class="col-auto">
-                <div
-                  class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow"
-                >
+                <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow">
                   <font-awesome-icon :icon="['fas', 'paint-brush']" />
                 </div>
               </div>
               <div class="col-lg-3">
-                <h5 class="card-title text-uppercase text-muted mb-0"
-                  >Diseño</h5
-                >
+                <h5 class="card-title text-uppercase text-muted mb-0">Diseño</h5>
                 <span class="h2 font-weight-bold mb-0">Gráfico</span>
               </div>
               <div class="col">
-                <p
-                  >Ofrezco un conjunto de piezas variado, desde logotipos,
+                <p>
+                  Ofrezco un conjunto de piezas variado, desde logotipos,
                   papelería, banners, diseños digitales para redes sociales,etc.
-                  que ayudaran a impulsar su empresa.</p
-                >
+                  que ayudaran a impulsar su empresa.
+                </p>
               </div>
               <div class="col-lg-11 offset-lg-1">
                 <div class="row">
                   <div class="col-lg-3">
                     <picture>
-                      <source
-                        type="image/webp"
-                        data-srcset="compressed_images/logo_ladyboho.webp"
-                      />
+                      <source type="image/webp" data-srcset="compressed_images/logo_ladyboho.webp" />
                       <img
                         alt="Cliente tantra spain ladyboho website"
                         data-src="images/logo_ladyboho.png"
@@ -140,10 +129,7 @@
                   </div>
                   <div class="col-lg-3">
                     <picture>
-                      <source
-                        type="image/webp"
-                        data-srcset="compressed_images/icon_wolf_app.webp"
-                      />
+                      <source type="image/webp" data-srcset="compressed_images/icon_wolf_app.webp" />
                       <img
                         alt="Cliente icono lobo"
                         data-src="images/icon_wolf_app.png"
@@ -153,10 +139,7 @@
                   </div>
                   <div class="col-lg-3">
                     <picture>
-                      <source
-                        type="image/webp"
-                        data-srcset="compressed_images/logo_linkup.webp"
-                      />
+                      <source type="image/webp" data-srcset="compressed_images/logo_linkup.webp" />
                       <img
                         alt="Cliente linkup logo"
                         data-src="images/logo_linkup.png"
@@ -171,24 +154,20 @@
           <div class="mb-5" id="ServNewsletter">
             <div class="row">
               <div class="col-auto">
-                <div
-                  class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow"
-                >
+                <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow">
                   <font-awesome-icon :icon="['fas', 'paper-plane']" />
                 </div>
               </div>
               <div class="col-lg-3">
-                <h5 class="card-title text-uppercase text-muted mb-0"
-                  >Mailchimp</h5
-                >
+                <h5 class="card-title text-uppercase text-muted mb-0">Mailchimp</h5>
                 <span class="h2 font-weight-bold mb-0">Newsletters</span>
               </div>
               <div class="col">
-                <p
-                  >Servicio de creación de newsletter para mantener a sus
+                <p>
+                  Servicio de creación de newsletter para mantener a sus
                   clientes informados de sus últimas novedades de productos o
-                  servicios.</p
-                >
+                  servicios.
+                </p>
               </div>
             </div>
           </div>
@@ -199,7 +178,8 @@
 </template>
 
 <script>
-import Services from '@/components/Services.vue';
+const Services = () =>
+  import(/* webpackChunkName: "services" */ "@/components/Services.vue");
 export default {
   components: {
     Services,

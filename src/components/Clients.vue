@@ -6,7 +6,7 @@
           <div class="card shadow border-0">
             <div class="card-body py-3">
               <div class="row">
-                <div class="col-lg-3 col-6">
+                <div class="col-lg col-6">
                   <picture>
                     <source
                       type="image/webp"
@@ -15,37 +15,47 @@
                     <img
                       alt="Cliente Ringsouth"
                       data-src="mages/logo-client-ringsouth.png"
-                      class="image lazyload mediabox-img img-fluid "
+                      class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
                 </div>
-                <div class="col-lg-3 col-6">
+                <div class="col-lg col-6">
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-uam.webp"
+                      data-srcset="compressed_images/logo-client-net2phone.webp"
                     />
+                    <img
+                      alt="Cliente net2phone"
+                      data-src="mages/logo-client-net2phone.png"
+                      class="image lazyload mediabox-img img-fluid"
+                    />
+                  </picture>
+                </div>
+                <div class="col-lg col-6">
+                  <picture>
+                    <source type="image/webp" data-srcset="compressed_images/logo-client-uam.webp" />
                     <img
                       alt="Cliente uam"
                       data-src="mages/logo-client-uam.png"
-                      class="image lazyload mediabox-img img-fluid "
+                      class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
                 </div>
-                <div class="col-lg-3 col-6">
+                <div class="col-lg col-6">
                   <picture>
                     <source
                       type="image/webp"
-                      data-srcset="compressed_images/logo-client-congedul.webp"
+                      data-srcset="compressed_images/logo-client-banco-sabadell.webp"
                     />
                     <img
-                      alt="Cliente congedul"
-                      data-src="mages/logo-client-congedul.png"
-                      class="image lazyload mediabox-img img-fluid "
+                      alt="Cliente banco Sabadell"
+                      data-src="images/logo-client-banco-sabadell.png"
+                      class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
                 </div>
-                <div class="col-lg-3 col-6">
+                <div class="col-lg col-6">
                   <picture>
                     <source
                       type="image/webp"
@@ -54,7 +64,7 @@
                     <img
                       alt="Cliente tantra"
                       data-src="mages/logo-client-tantra.png"
-                      class="image lazyload mediabox-img img-fluid "
+                      class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
                 </div>

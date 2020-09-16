@@ -26,11 +26,16 @@
   </div>
 </template>
 <script>
-import Header from "@/components/Header.vue";
-import About from "@/components/About.vue";
-import Services from "@/components/Services.vue";
-import Works from "@/components/Works.vue";
-import Clients from "@/components/Clients.vue";
+const Header = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/Header.vue");
+const About = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/About.vue");
+const Services = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/Services.vue");
+const Works = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/Works.vue");
+const Clients = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/Clients.vue");
 
 export default {
   components: {

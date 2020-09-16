@@ -3,6 +3,12 @@ import Router from 'vue-router';
 import LandingLayout from '@/layout/LandingLayout';
 
 Vue.use(Router);
+const Landing = () =>
+  import(/* webpackChunkName: "landing" */ './views/Landing.vue');
+const ServicesLanding = () =>
+  import(/* webpackChunkName: "services" */ './views/ServicesLanding.vue');
+const Recomendations = () =>
+  import(/* webpackChunkName: "recomendations" */ './views/Recomendations.vue');
 
 export default new Router({
   //linkExactActiveClass: 'active',
@@ -15,17 +21,17 @@ export default new Router({
         {
           path: '/',
           name: 'landing',
-          component: () => import('./views/Landing.vue'),
+          component: Landing,
         },
         {
           path: '/services',
           name: 'services',
-          component: () => import('./views/ServicesLanding.vue'),
+          component: ServicesLanding,
         },
         {
           path: '/recomendaciones',
           name: 'recomendaciones',
-          component: () => import('./views/Recomendations.vue'),
+          component: Recomendations,
         },
       ],
     },

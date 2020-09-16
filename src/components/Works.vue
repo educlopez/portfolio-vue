@@ -88,4 +88,3 @@
   </section>
 </template>
 
-<style></style>

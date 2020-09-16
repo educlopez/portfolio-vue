@@ -11,7 +11,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './assets/scss/app.scss';
+@import './assets/scss/argon.scss';
+
 .mediabox-img.ls-blur-up-is-loading,
 .mediabox-img.lazyload:not([src]) {
   visibility: hidden;

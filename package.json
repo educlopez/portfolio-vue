@@ -7,23 +7,21 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",
-    "css:build": "postcss src/assets/scss/app.scss -o public/prueba.css"
+    "build-report": "vue-cli-service build --report"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/vue-fontawesome": "^0.1.10",
-    "bootstrap": "4.5.0",
-    "bootstrap-vue": "2.15.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
     "core-js": "3.6.5",
     "lazysizes": "^5.2.2",
-    "lottie-vuejs": "^0.3.7",
-    "nouislider": "14.6.0",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.2",
     "register-service-worker": "1.7.1",
-    "vue": "2.6.11",
+    "vue": "^2.6.11",
     "vue-headful": "^2.1.0",
     "vue-router": "3.3.4",
     "vue2-transitions": "0.3.0"

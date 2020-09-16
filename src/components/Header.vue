@@ -1,6 +1,6 @@
 <template>
   <div class="position-relative panel" data-color="white">
-    <section class="section section-lg section-shaped pt-100">
+    <section class="section section-lg  pt-100">
       <div class="container d-flex card-style">
         <div class="col px-0">
           <div class="row">
@@ -35,9 +35,18 @@
               </div>
             </div>
             <div class="col-lg-7 p-0">
-              <div>
-                <lottie-animation path="rocket.json" />
-              </div>
+               <picture>
+                <source
+                  type="image/webp"
+                  data-srcset="compressed_images/welcome.webp"
+                />
+                <img
+                  alt="welcome Edu web"
+                  data-src="images/welcome.png"
+                  class="lazyload img-fluid img-welcome"
+                />
+              </picture>
+             
             </div>
           </div>
         </div>
@@ -47,14 +56,6 @@
 </template>
 
 <script>
-import LottieAnimation from 'lottie-vuejs/src/LottieAnimation.vue'; // import lottie-vuejs
 
-export default {
-  components: {
-    LottieAnimation,
-  },
-  data: () => ({}),
-};
 </script>
 
-<style></style>
