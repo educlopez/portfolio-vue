@@ -1,6 +1,7 @@
 <template>
   <div>
     <router-view />
+
   </div>
 </template>
 
@@ -38,4 +39,5 @@ export default {
   opacity: 0;
   filter: blur(5px);
 }
+
 </style>

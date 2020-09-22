@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">
-          <div class="card shadow border-0">
+          <div class="card shadow-client border-0">
             <div class="card-body py-3">
               <div class="row">
                 <div class="col-lg col-6">

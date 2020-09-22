@@ -1,5 +1,17 @@
 <template>
   <section id="works" class="section section-sm panel" data-color="white">
+      <div class="
+    Guides
+    
+  " aria-hidden="true">
+  <div class="Guides__container">
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+    <div class="Guides__guide"></div>
+  </div>
+</div>
     <div class="container py-lg-md d-flex">
       <div class="col px-0">
         <div class="row">
@@ -19,7 +31,7 @@
               <img
                 alt="Cliente Ringsouth"
                 data-src="/images/screen-ringsouth_movil.png"
-                class="image lazyload mediabox-img img-fluid mb-5"
+                class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
             <h3 class="pre-title--works">#Website</h3>
@@ -33,7 +45,7 @@
               <img
                 alt="Cliente Ringsouth"
                 data-src="/images/screen-ringsouth_sms.png"
-                class="image lazyload mediabox-img img-fluid mb-5"
+                class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
             <h3 class="pre-title--works">#Website</h3>
@@ -47,7 +59,7 @@
               <img
                 alt="Cliente tantra website"
                 data-src="/images/screen-tantra_website.png"
-                class="image lazyload mediabox-img img-fluid mb-5"
+                class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
 
@@ -61,7 +73,7 @@
               <img
                 alt="Cliente uam dashboard universidad autonoma de madrid"
                 data-src="/images/screen-uam_dashboard.png"
-                class="image lazyload mediabox-img img-fluid mb-5"
+                class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
             <h3 class="pre-title--works">#Dashboard</h3>

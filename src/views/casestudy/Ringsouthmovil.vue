@@ -18,15 +18,15 @@
     />
 
     <router-view></router-view>
-    <Clients />
+    <HeaderStudy />
   </div>
 </template>
 <script>
-const Clients = () =>
-  import(/* webpackChunkName: "landing" */ "@/components/Clients.vue");
+const HeaderStudy = () =>
+  import(/* webpackChunkName: "landing" */ "@/components/HeaderStudy.vue");
 export default {
   components: {
-    Clients,
+    HeaderStudy,
   },
 };
 </script>

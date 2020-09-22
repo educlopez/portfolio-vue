@@ -138,13 +138,13 @@
                 >
               </router-link>
             </li>
-            <li class="nav-item ">
+           <!-- <li class="nav-item ">
               <router-link to="" class="nav-link" role="button">
                 <span class="nav-link-inner--text text-black"
                   >Blog <span class="pre-title--works">Próximamente</span></span
                 >
               </router-link>
-            </li>
+            </li>-->
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item">
