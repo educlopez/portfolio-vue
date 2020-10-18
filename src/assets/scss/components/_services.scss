@@ -1,0 +1,56 @@
+.iUzVri {
+    display: block;
+    height: 200px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    overflow: hidden;
+}
+
+.gpbdkg {
+    object-fit: cover;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    transition: opacity 0.8s ease 0s;
+}
+
+.iUzVri:hover .ProcessBoxstyles__Background-b4x5vz-0 {
+    opacity: 0.6;
+}
+
+.egNrsg {
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    text-decoration: none;
+}
+
+@media (min-width: 767px) {
+    .iUzVri {
+        height: 360px;
+    }
+
+    .jbhENv {
+        font-size: 2.7rem;
+        margin-left: 190px;
+        padding-left: 0px;
+    }
+
+}
+
+.jbhENv {
+    counter-increment: link 1;
+    position: relative;
+    padding-left: 30px;
+    margin: 25px 0px 0px;
+    transition: transform 0.8s ease 0s;
+}

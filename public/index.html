@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fbb828" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="<%= BASE_URL %>faviconwebsite.png"
+    />
+    <title></title>
+    <meta itemprop="name" />
+    <meta property="og:locale" />
+    <meta property="og:title" />
+    <meta name="twitter:title" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta itemprop="description" />
+    <meta property="og:description" />
+    <meta name="twitter:description" />
+    <meta itemprop="image" />
+    <meta property="og:image" />
+    <meta name="twitter:image" />
+    <link rel="canonical" />
+    <meta property="og:url" />
+    <meta name="twitter:url" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>
+        Lo sentimos, pero vue no funciona correctamente sin JavaScript
+        habilitado. Por favor, activelo para continuar.</strong
+      >
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

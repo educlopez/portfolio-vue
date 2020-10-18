@@ -1,0 +1,52 @@
+.announcement {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(100% + 40px);
+    width: calc(100% + 20px * 2);
+    padding: .5rem !important;
+    margin: 0 0 30px -20px;
+    margin: 0 0 30px calc(20px * -1);
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #5f4203;
+    text-decoration: none;
+    background: rgba(251, 185, 44, 0.15);
+    border-radius: 9999px !important;
+}
+
+.announcement:hover {
+    color: $black
+}
+
+.announcement .message {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0 12px;
+}
+
+.new-pill {
+    color: #ffffff;
+    background-color: rgb(251, 184, 39);
+    font-size: .75rem !important;
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+}
+
+@media (min-width: 670px) {
+    .announcement {
+        line-height: 26px;
+        margin: 0;
+        padding: 0 12px 0 5px;
+        width: auto;
+    }
+
+    .announcement .message {
+        margin: 0 7px 0 6px;
+    }
+}

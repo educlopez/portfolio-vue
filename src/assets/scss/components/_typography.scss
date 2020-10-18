@@ -1,0 +1,26 @@
+.border-title {
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+    background-color: transparent;
+}
+
+.text-black {
+    color: $black
+}
+
+.title-h1-header {
+    letter-spacing: 0.026em;
+    line-height: 1;
+    font-size: 4.25em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.title-sub-header {
+    letter-spacing: 0.026em;
+    line-height: 1;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $black;
+}
