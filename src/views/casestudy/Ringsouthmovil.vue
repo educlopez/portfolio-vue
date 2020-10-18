@@ -18,14 +18,14 @@
     />
 
     <router-view></router-view>
-    <HeaderStudy />
+    <Header header="Ringsouth móvil" subheader=""/>
   </div>
 </template>
 <script>
-import HeaderStudy from '@/components/HeaderStudy.vue';
+import Header from "@/components/HeaderSubPage.vue";
 export default {
   components: {
-    HeaderStudy,
+    Header,
   },
 };
 </script>

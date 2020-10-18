@@ -45,6 +45,7 @@ import 'lazysizes/plugins/blur-up/ls.blur-up';
 
 //SEO
 import vueHeadful from 'vue-headful';
+
 createApp(App)
   .use(router)
   .component('vue-headful', vueHeadful)

@@ -16,16 +16,7 @@
       twitterDescription="Recomendaciones de material, inspiraciones y equipo"
       twitterImage="https://api.microlink.io?url=https%3A%2F%2Feducalvolopez.com&waitFor=10&overlay.browser=dark&overlay.background=%23fbb828&screenshot=true&meta=false&embed=screenshot.url"
     />
-    <section class="section hero home photography">
-      <div class="overlay-black"></div>
-      <div class="container">
-        <h1 class="text-overlay text-black">Recomendaciones de Equipo y Libros</h1>
-        <p class="text-overlay text-black">
-          Equipo de trabajo para diseñar,prototipar y programar
-          <br />Libros inspiracionales e interesantes con los que ampliar horizontes
-        </p>
-      </div>
-    </section>
+         <Header header="Recomendaciones de Equipo y Libros" subheader=" Equipo de trabajo para diseñar,prototipar y programar"/>
     <section class="section section-lg pb-250 panel" data-color="white">
       <div class="container">
         <div class="row justify-content-center">
@@ -84,3 +75,16 @@
     </section>
   </div>
 </template>
+
+<script>
+import Header from "@/components/HeaderSubPage.vue";
+
+
+export default {
+  components: {
+    Header,
+
+  },
+};
+</script>
+<style></style>

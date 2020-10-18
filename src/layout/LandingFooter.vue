@@ -23,24 +23,14 @@
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
-              <a
-                href="#"
-                data-toggle="modal"
-                data-target="#privacyModal"
-                class="nav-link"
-                target="_blank"
-                >Política de privacidad y Aviso Legal</a
-              >
+                <router-link to="/legal" class="nav-link" role="button">
+                  Política de privacidad y Aviso Legal
+              </router-link>
             </li>
             <li class="nav-item">
-              <a
-                href="#"
-                data-toggle="modal"
-                data-target="#cookiesModal"
-                class="nav-link"
-                target="_blank"
-                >Política de Cookies</a
-              >
+               <router-link to="/cookies" class="nav-link" role="button">
+                  Política de Cookies
+              </router-link>
             </li>
           </ul>
         </div>
