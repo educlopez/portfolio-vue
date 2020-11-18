@@ -2,7 +2,7 @@
   <section id="works" class="section section-sm panel" data-color="white">
       <div class="
     Guides
-    
+
   " aria-hidden="true">
   <div class="Guides__container">
     <div class="Guides__guide"></div>
@@ -34,10 +34,12 @@
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
-            <h3 class="pre-title--works">#Website</h3>
-            <h3 class="pre-title--works">#Dashboard</h3>
-            <h2 class="title--works">Ringsouth Móvil.</h2>
-            <p>Case Study próximamente...</p>
+            <h3 class="pre-title--works mr-2">#Website</h3>
+            <h2 class="title--works">Ringsouth/Net2phone.</h2>
+             <router-link to="/case-study/ringsouth-movil" class="btn btn-yellow mb-3 mb-sm-0">
+                  <span class="btn-inner--text">CaseStudy</span>
+              </router-link>
+             <a href="https://movil.ringsoutheuropa.com/" class="btn btn-white mb-3 mb-sm-0" target="_blank" rel="noopener">Ver website</a>
           </div>
           <div class="col-lg-5 offset-lg-2 items--works">
             <picture>
@@ -48,10 +50,11 @@
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
-            <h3 class="pre-title--works">#Website</h3>
+            <h3 class="pre-title--works mr-2">#Website</h3>
             <h3 class="pre-title--works">#Dashboard</h3>
-            <h2 class="title--works">SMSRingsouth.</h2>
+            <h2 class="title--works">Ringsouth/Net2phone.</h2>
             <p>Case Study próximamente...</p>
+            <a href="https://sms.net2phone.es/login" class="btn btn-white mb-3 mb-sm-0" target="_blank" rel="noopener">Ver website</a>
           </div>
           <div class="col-lg-5 items--works">
             <picture>
@@ -66,6 +69,7 @@
             <h3 class="pre-title--works">#Website</h3>
             <h2 class="title--works">Tantra Spain.</h2>
             <p>Case Study próximamente...</p>
+            <a href="https://tantraspain.com/" class="btn btn-white mb-3 mb-sm-0" target="_blank" rel="noopener">Ver website</a>
           </div>
           <div class="col-lg-5 offset-lg-2 items--works">
             <picture>
@@ -77,7 +81,7 @@
               />
             </picture>
             <h3 class="pre-title--works">#Dashboard</h3>
-            <h2 class="title--works">UAM.</h2>
+            <h2 class="title--works">Universidad Autónoma de Madrid.</h2>
             <p>Case Study próximamente...</p>
           </div>
         </div>
