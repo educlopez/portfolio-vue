@@ -53,7 +53,9 @@
             <h3 class="pre-title--works mr-2">#Website</h3>
             <h3 class="pre-title--works">#Dashboard</h3>
             <h2 class="title--works">Ringsouth/Net2phone.</h2>
-            <p>Case Study próximamente...</p>
+             <router-link to="/case-study/ringsouth-sms" class="btn btn-yellow mb-3 mb-sm-0">
+                  <span class="btn-inner--text">CaseStudy</span>
+              </router-link>
             <a href="https://sms.net2phone.es/login" class="btn btn-white mb-3 mb-sm-0" target="_blank" rel="noopener">Ver website</a>
           </div>
           <div class="col-lg-5 items--works">
@@ -68,7 +70,9 @@
 
             <h3 class="pre-title--works">#Website</h3>
             <h2 class="title--works">Tantra Spain.</h2>
-            <p>Case Study próximamente...</p>
+            <router-link to="/case-study/tantra" class="btn btn-yellow mb-3 mb-sm-0">
+                  <span class="btn-inner--text">CaseStudy</span>
+              </router-link>
             <a href="https://tantraspain.com/" class="btn btn-white mb-3 mb-sm-0" target="_blank" rel="noopener">Ver website</a>
           </div>
           <div class="col-lg-5 offset-lg-2 items--works">
@@ -82,7 +86,7 @@
             </picture>
             <h3 class="pre-title--works">#Dashboard</h3>
             <h2 class="title--works">Universidad Autónoma de Madrid.</h2>
-            <p>Case Study próximamente...</p>
+            <p>Case Study no disponible por motivos de privacidad</p>
           </div>
         </div>
       </div>

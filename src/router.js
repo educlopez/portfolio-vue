@@ -8,11 +8,13 @@ import Cookies from '@/views/Cookies.vue';
 import Legal from '@/views/Legal.vue';
 import NotFound from '@/views/NotFound.vue';
 import CaseStudyRingsouthMovil from '@/views/casestudy/Ringsouthmovil.vue';
+import CaseStudyRingsouthSMS from '@/views/casestudy/Ringsouthsms.vue';
+import CaseStudyTantra from '@/views/casestudy/Tantra.vue';
 
 
 
 const routes = [
-  
+
   {
     path: '/',
     redirect: 'landing',
@@ -22,8 +24,8 @@ const routes = [
         path: '/',
         name: 'landing',
         component: Landing,
-      
-        
+
+
       },
       {
         path: '/services',
@@ -39,6 +41,16 @@ const routes = [
         path: '/case-study/ringsouth-movil',
         name: 'casestudyringsouthmovil',
         component: CaseStudyRingsouthMovil,
+      },
+      {
+        path: '/case-study/ringsouth-sms',
+        name: 'casestudyringsouthsms',
+        component: CaseStudyRingsouthSMS,
+      },
+      {
+        path: '/case-study/tantra',
+        name: 'casestudytantra',
+        component: CaseStudyTantra,
       },
       {
         path: '/cookies',
@@ -57,7 +69,7 @@ const routes = [
       },
     ],
   },
-  
+
 ];
 
 
