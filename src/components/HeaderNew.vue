@@ -23,7 +23,7 @@
 
               <div class="btn-wrapper mt-5">
                 <a
-                  href="mailto:hi@educalvolopez.com"
+                  href="mailto:educlopez93@gmail.com"
                   target="_blank"
                   class="btn btn-yellow mb-3 mb-sm-0"
                 >

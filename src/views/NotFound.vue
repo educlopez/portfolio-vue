@@ -5,7 +5,7 @@
             <span class="btn-inner--text">Inicio</span>
         </router-link>
         <a
-            href="mailto:hi@educalvolopez.com"
+            href="mailto:educlopez93@gmail.com"
             target="_blank"
             class="btn btn-white mb-3 mb-sm-0"
         >

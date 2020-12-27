@@ -19,7 +19,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>-->
         <a
-          href="mailto:hi@educalvolopez.com"
+          href="mailto:educlopez93@gmail.com"
           target="_blank"
           class="show-mobile btn btn-yellow"
         >
@@ -213,7 +213,7 @@
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a
-                href="mailto:hi@educalvolopez.com"
+                href="mailto:educlopez93@gmail.com"
                 target="_blank"
                 class="btn btn-yellow"
               >
