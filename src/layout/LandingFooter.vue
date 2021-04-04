@@ -5,7 +5,7 @@
         <div class="col-lg-12 text-lg-right text-center btn-wrapper">
           <a
             class="mb-0 btn btn-yellow btn-md"
-            href="/doc/curriculum_vitae_eduardo_calvo_2019.pdf"
+            href="/doc/040421_curriculum_eduardo_calvo.pdf"
             download
             >Descargar Curriculum Vitae</a
           >
