@@ -29,9 +29,9 @@
                 >
                   <span class="btn-inner--text">Contacto</span>
                 </a>
-                <router-link to="#works" class="btn btn-white mb-3 mb-sm-0">
+                <a href="#works" class="btn btn-white mb-3 mb-sm-0">
                   <span class="btn-inner--text">Proyectos</span>
-                </router-link>
+                </a>
               </div>
             </div>
           </div>
