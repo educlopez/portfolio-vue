@@ -121,9 +121,9 @@
             </li>
             <li class="nav-item">
               <!--<a href="#" class="nav-link" data-toggle="dropdown" role="button">-->
-              <router-link to="/#works" class="nav-link" role="button">
+              <a href="/#works" class="nav-link" role="button">
                 <span class="nav-link-inner--text text-black">Proyectos</span>
-              </router-link>
+              </a>
               <!-- <div class="dropdown-menu">
                         <a href="" class="dropdown-item">Ringsouth Móvil</a>
                         <a href="" class="dropdown-item">SmsRingsouth</a>
