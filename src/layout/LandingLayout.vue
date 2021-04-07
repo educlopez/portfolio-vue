@@ -25,4 +25,7 @@ export default {
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+body{
+  font-family: "Open Sans", sans-serif!important;
+}</style>
