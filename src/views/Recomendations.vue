@@ -30,7 +30,7 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/2O1NpLX"
+                    href="https://amzn.to/3s1pbTH"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
@@ -46,7 +46,7 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/33BH7sP"
+                    href="https://amzn.to/3dzeDWI"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
@@ -62,7 +62,23 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/2X0PHig"
+                    href="https://amzn.to/3cX5icl"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                  >Link Amazon</a>
+                </p>
+              </div>
+            </div>
+             <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Sistemas de retículas: Un manual para diseñadores gráficos.</h5>
+                <p
+                  class="card-text"
+                >Imprescindible manual que aborda de forma rigurosa y exhaustiva la sistematización de la composición tipográfica en cualquiera de sus formas, como el libro, la revista, el catálogo, el folleto o el cartel.</p>
+                <p class="card-text">
+                  <a
+                    rel="noopener"
+                    href="https://amzn.to/3muHnnF"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
