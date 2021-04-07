@@ -18,7 +18,7 @@
                 <source type="image/webp" data-srcset="/compressed_images/web.webp" />
                 <img
                   alt="img web"
-                  data-src="/images/web.png"
+                  data-src="/img/web.png"
                   class="ProcessBoxstyles__Background-b4x5vz-0 gpbdkg lazyload mediabox-img"
                 />
               </picture>
@@ -39,7 +39,7 @@
                 <source type="image/webp" data-srcset="/compressed_images/design.webp" />
                 <img
                   alt="img design"
-                  data-src="/images/design.png"
+                  data-src="/img/design.png"
                   class="ProcessBoxstyles__Background-b4x5vz-0 gpbdkg lazyload mediabox-img"
                 />
               </picture>
@@ -60,7 +60,7 @@
                 <source type="image/webp" data-srcset="/compressed_images/news.webp" />
                 <img
                   alt="img news"
-                  data-src="/images/news.png"
+                  data-src="/img/news.png"
                   class="ProcessBoxstyles__Background-b4x5vz-0 gpbdkg lazyload mediabox-img"
                 />
               </picture>

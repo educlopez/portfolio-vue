@@ -30,7 +30,7 @@
               />
               <img
                 alt="Cliente Ringsouth"
-                data-src="/images/screen-ringsouth_movil.png"
+                data-src="/img/screen-ringsouth_movil.png"
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
@@ -46,7 +46,7 @@
               <source type="image/webp" data-srcset="/compressed_images/screen-ringsouth_sms.webp" />
               <img
                 alt="Cliente Ringsouth"
-                data-src="/images/screen-ringsouth_sms.png"
+                data-src="/img/screen-ringsouth_sms.png"
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
@@ -63,7 +63,7 @@
               <source type="image/webp" data-srcset="/compressed_images/screen-tantra_website.webp" />
               <img
                 alt="Cliente tantra website"
-                data-src="/images/screen-tantra_website.png"
+                data-src="/img/screen-tantra_website.png"
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>
@@ -80,7 +80,7 @@
               <source type="image/webp" data-srcset="/compressed_images/screen-uam_dashboard.webp" />
               <img
                 alt="Cliente uam dashboard universidad autonoma de madrid"
-                data-src="/images/screen-uam_dashboard.png"
+                data-src="/img/screen-uam_dashboard.png"
                 class="image lazyload mediabox-img img-fluid mb-5 shadow-client"
               />
             </picture>

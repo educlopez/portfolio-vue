@@ -8,8 +8,10 @@
         <router-link to="/" class="navbar-brand mr-lg-5">
           <div>
             <img
-              src="/images/logonegro.svg"
+              src="/img/logonegro.svg"
               alt="Logo Edu Calvo Design"
+              height="50"
+              width="50"
               style="height: 50px"
             />
           </div>
@@ -32,8 +34,10 @@
                 <router-link to="/">
                   <div>
                     <img
-                      src="/images/logonegro.svg"
+                      src="/img/logonegro.svg"
                       alt="Logo Edu Calvo Design"
+                      height="50"
+                      width="50"
                     />
                   </div>
                   <span class="sr-only">Ir a la Home</span>

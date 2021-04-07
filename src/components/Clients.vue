@@ -14,7 +14,7 @@
                     />
                     <img
                       alt="Cliente Ringsouth"
-                      data-src="/images/logo-client-ringsouth.png"
+                      data-src="/img/logo-client-ringsouth.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -27,7 +27,7 @@
                     />
                     <img
                       alt="Cliente net2phone"
-                      data-src="/images/logo-client-net2phone.png"
+                      data-src="/img/logo-client-net2phone.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -37,7 +37,7 @@
                     <source type="image/webp" data-srcset="/compressed_images/logo-client-uam.webp" />
                     <img
                       alt="Cliente uam"
-                      data-src="/images/logo-client-uam.png"
+                      data-src="/img/logo-client-uam.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -50,7 +50,7 @@
                     />
                     <img
                       alt="Cliente banco Sabadell"
-                      data-src="/images/logo-client-banco-sabadell.png"
+                      data-src="/img/logo-client-banco-sabadell.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>
@@ -63,7 +63,7 @@
                     />
                     <img
                       alt="Cliente tantra"
-                      data-src="/images/logo-client-tantra.png"
+                      data-src="/img/logo-client-tantra.png"
                       class="image lazyload mediabox-img img-fluid"
                     />
                   </picture>

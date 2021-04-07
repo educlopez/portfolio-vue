@@ -39,7 +39,7 @@
   padding: 10rem 0 6rem 0
 }
 .bg-header-new {
-  background: url("/images/bg_header.jpg");
+  background: url("/img/bg_header.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -72,7 +72,7 @@
     padding: 100px 0 40px 0
   }
   .bg-header-new {
-    background: url("/images/bg_header.jpg");
+    background: url("/img/bg_header.jpg");
     background-position: left bottom;;
     background-size: auto;
   }

@@ -35,7 +35,7 @@
                 <source type="image/webp" data-srcset="/compressed_images/Welcome.webp" />
                 <img
                   alt="welcome Edu web"
-                  data-src="/images/Welcome.png"
+                  data-src="/img/Welcome.png"
                   class="lazyload img-fluid img-welcome"
                 />
               </picture>

@@ -53,7 +53,7 @@
                       />
                       <img
                         alt="Cliente tantra website"
-                        data-src="/images/screen-tantra_website.png"
+                        data-src="/img/screen-tantra_website.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -66,7 +66,7 @@
                       />
                       <img
                         alt="Cliente uam dashboard website"
-                        data-src="/images/screen-uam_dashboard.png"
+                        data-src="/img/screen-uam_dashboard.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -79,7 +79,7 @@
                       />
                       <img
                         alt="Cliente ringsouth sms website net2phone"
-                        data-src="/images/screen-ringsouth_sms.png"
+                        data-src="/img/screen-ringsouth_sms.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -92,7 +92,7 @@
                       />
                       <img
                         alt="Cliente ringsouth movil net2phone website"
-                        data-src="/images/screen-ringsouth_movil.png"
+                        data-src="/img/screen-ringsouth_movil.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -133,7 +133,7 @@
                       />
                       <img
                         alt="Cliente tantra spain ladyboho website"
-                        data-src="/images/logo_ladyboho.png"
+                        data-src="/img/logo_ladyboho.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -146,7 +146,7 @@
                       />
                       <img
                         alt="Cliente icono lobo"
-                        data-src="/images/icon_wolf_app.png"
+                        data-src="/img/icon_wolf_app.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>
@@ -159,7 +159,7 @@
                       />
                       <img
                         alt="Cliente linkup logo"
-                        data-src="/images/logo_linkup.png"
+                        data-src="/img/logo_linkup.png"
                         class="image lazyload mediabox-img img-fluid mb-5 img--works"
                       />
                     </picture>

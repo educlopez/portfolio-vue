@@ -46,7 +46,7 @@
               <source type="image/webp" data-srcset="/compressed_images/tantra1.webp" />
               <img
                 alt="Cliente Tantra"
-                data-src="/images/tantra1.png"
+                data-src="/img/tantra1.png"
                 class="image lazyload img-fluid rounded shadow-client mb-4 border-img"
               />
             </picture>
@@ -56,7 +56,7 @@
               <source type="image/webp" data-srcset="/compressed_images/tantra2.webp" />
               <img
                 alt="Cliente Tantra"
-                data-src="/images/tantra2.png"
+                data-src="/img/tantra2.png"
                 class="image lazyload img-fluid rounded shadow-client mb-4 border-img"
               />
             </picture>
@@ -64,7 +64,7 @@
               <source type="image/webp" data-srcset="/compressed_images/tantra3.webp" />
               <img
                 alt="Cliente Tantra"
-                data-src="/images/tantra3.png"
+                data-src="/img/tantra3.png"
                 class="image lazyload img-fluid rounded shadow-client border-img"
               />
             </picture>

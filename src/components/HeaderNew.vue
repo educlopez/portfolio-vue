@@ -47,7 +47,7 @@
 <style scoped>
 
 .bg-header-new {
-  background: url("/images/bg_header.jpg");
+  background: url("/img/bg_header.jpg");
   background-position: center;
   background-size: cover;
 }

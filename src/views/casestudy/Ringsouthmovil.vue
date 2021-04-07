@@ -48,7 +48,7 @@
               <source type="image/webp" data-srcset="/compressed_images/net2phone_movil1.webp" />
               <img
                 alt="Cliente Ringsouth"
-                data-src="/images/net2phone_movil1.png"
+                data-src="/img/net2phone_movil1.png"
                 class="image lazyload img-fluid rounded shadow-client mb-4 border-img"
               />
             </picture>
@@ -58,7 +58,7 @@
               <source type="image/webp" data-srcset="/compressed_images/net2phone_movil2.webp" />
               <img
                 alt="Cliente Ringsouth"
-                data-src="/images/net2phone_movil2.png"
+                data-src="/img/net2phone_movil2.png"
                 class="image lazyload img-fluid rounded shadow-client mb-4 border-img"
               />
             </picture>
@@ -66,7 +66,7 @@
               <source type="image/webp" data-srcset="/compressed_images/net2phone_movil3.webp" />
               <img
                 alt="Cliente Ringsouth"
-                data-src="/images/net2phone_movil3.png"
+                data-src="/img/net2phone_movil3.png"
                 class="image lazyload img-fluid rounded shadow-client border-img"
               />
             </picture>
