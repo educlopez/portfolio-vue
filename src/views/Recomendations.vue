@@ -30,7 +30,7 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/3s1pbTH"
+                    href="https://amzn.to/3mRf0Al"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
@@ -46,7 +46,7 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/3dzeDWI"
+                    href="https://amzn.to/3tpcWSC"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
@@ -62,7 +62,7 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/3cX5icl"
+                    href="https://amzn.to/3echfuh"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
@@ -78,7 +78,23 @@
                 <p class="card-text">
                   <a
                     rel="noopener"
-                    href="https://amzn.to/3muHnnF"
+                    href="https://amzn.to/2QaL8mD"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                  >Link Amazon</a>
+                </p>
+              </div>
+            </div>
+             <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">LG 27UL650-W - Monitor 4K UHD de 27"</h5>
+                <p
+                  class="card-text"
+                >Imprescindible monitor para conectar el mac book pro. Respeta muy bien los colores de las pantallas de los mac.</p>
+                <p class="card-text">
+                  <a
+                    rel="noopener"
+                    href="https://amzn.to/3dnvcGn"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                   >Link Amazon</a>
