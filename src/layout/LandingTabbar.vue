@@ -14,7 +14,7 @@
             <span class="sr-only">Ir a Servicios</span>
           </div>
         </router-link>
-        <a to="/#work" class="col-3 text-center">
+        <a href="/#work" class="col-3 text-center">
           <div>
             <font-awesome-icon icon="briefcase" />
             <span class="sr-only">Ir a Trabajos</span>
